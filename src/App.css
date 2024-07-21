@@ -1,0 +1,35 @@
+/* App.css */
+.app-container {
+    display: flex;
+ }
+  
+  
+  .content-container {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Slide and Fade Transition */
+  .fade-slide-enter {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  
+  .fade-slide-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 600ms ease, transform 600ms ease;
+  }
+  
+  .fade-slide-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .fade-slide-exit-active {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 600ms ease, transform 600ms ease;
+  }
+  

@@ -1,0 +1,75 @@
+.homeContainer {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y:auto;
+}
+
+
+.section {
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 7px;
+    background-color: yellow;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 10px 10px 20px rgba(255, 1, 1, 0.487);
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+}
+
+.educationSection {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.educationItem {
+    background-color: grey;
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px 5px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px rgba(255, 1, 1, 0.487);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    max-width: 100%;
+}
+
+.educationContent{
+    color:rgb(2, 92, 62);
+}
+.educationContent > strong{
+    color: #321c15;
+
+}
+.skillsSection {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.skill {
+    width: auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    
+}
